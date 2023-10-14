@@ -30,41 +30,14 @@
 
 // export default App;
 
-import React, { useState } from 'react';
-
-const TopToolbar = ({ activeCategory, handleCategoryChange }) => {
-  return (
-    <div style={{ backgroundColor: '#f0f0f0', padding: '10px', borderBottom: '1px solid #ccc' }}>
-      <button
-        style={{ marginRight: '10px', backgroundColor: activeCategory === 'exercise' ? '#ddd' : 'transparent' }}
-        onClick={() => handleCategoryChange('exercise')}
-      >
-        Exercise
-      </button>
-      <button
-        style={{ backgroundColor: activeCategory === 'food' ? '#ddd' : 'transparent' }}
-        onClick={() => handleCategoryChange('food')}
-      >
-        Food
-      </button>
-    </div>
-  );
-};
+import React from 'react';
 
 const App = () => {
-  const [activeCategory, setActiveCategory] = useState('exercise');
-
-  const handleCategoryChange = (category) => {
-    setActiveCategory(category);
-    // You can add additional logic here based on the selected category
-  };
-
   return (
     <div>
       <header style={{ textAlign: 'center', padding: '20px', backgroundColor: '#333', color: 'white' }}>
         <h1>Student Wellness</h1>
       </header>
-      <TopToolbar activeCategory={activeCategory} handleCategoryChange={handleCategoryChange} />
       {/* Your main content goes here */}
     </div>
   );
