@@ -7,24 +7,24 @@ import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-do
 
 class App extends Component {
   render() {
-    console.log("Host URL"+process.env.PUBLIC_URL);
     return (
-
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
         <header className="App-header">
           <h1 className="App-title">Student Wellness Central</h1>
         </header>
-          <Switch>
+        <TopToolbar />
+          {/* <Switch>
                 <Route exact path= "/" render={() => (
                   <Redirect to="/customerlist"/>
                 )}/>
                  <Route exact path='/customerlist' component={Customers} />
-          </Switch>
+          </Switch> */}
       </div>
     </Router>
     );
   }
 }
+
 
 export default App;
