@@ -262,6 +262,8 @@ const App = () => {
         <li><strong>Saturday:</strong> Rest day.</li>
         <li><strong>Sunday:</strong> Run, jog, or take a long walk for 40 minutes.</li>
       </ul>
+      <p>If videos are more your speed, try watching this helpful tutorial for making a workout routine: </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Wa4f7f5y7uQ?si=DZd1dnGUFQsPRG2N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
           </div>
         )}
