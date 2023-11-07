@@ -41,25 +41,18 @@ const App = () => {
     "Walk your dog (or volunteer to take your neighbor’s dog for a walk if you don’t have one). Get outside and let your dog take the lead on helping you get your daily exercise in.",
     "Master a skipping-rope routine. There are plenty of jump rope workout tutorials for beginners online.",
     "Play frisbee at the park. Introduce a bit of healthy competition with your friends and family with a frisbee competition.",
-    "Attend your local gym. Change up your workout playlist and hit the gym. Ask instructors how to use those machines you've been avoiding and get your friend to come along for extra motivation.",
     "Go Swimming. Swimming helps improve your flexibility, your balance, builds muscles, and enhances your endurance.",
     "Host a dance party. Get sweaty, burn calories, and move your entire body on the dance floor.",
     "Use the stairs instead of the lifts. A simple way to get extra steps in.",
     "Carry out household chores. On average, you'll burn around 165 calories per hour of general household chores.",
     "Try a new sport - ice skating, fencing, martial arts, ballet, etc. Why not use your Exercise Challenge as an opportunity to try something new? You never know, you may want to keep it up long term.",
-    "Go paintballing with your friends. Healthy competition is fun and exciting. Get the adrenaline pumping with a paintballing day with a group of friends.",
     "Master the art of yoga. Increase flexibility and relieve stress with a yoga session. Find your local class today and give it a go.",
-    "Join a running club. A great cardio exercise which can be social too. Join your local running club for extra motivation.",
-    "Attempt rock-climbing. Rock climbing is both fun and physically demanding. It combines both strength training and cardio in a single workout.",
     "Hike a mountain. Reconnect with the great outdoors while getting your daily exercise in. Inspire your walk with our top hiking routes.",
     "Hula hoop (you’re never too old!). Burn calories and tone muscles by using a weighted hula hoop. You can even do it while watching TV!",
     "Join a team sport. There's no greater motivation than working as a team to achieve a goal. Meet new friends while taking on a sport you enjoy.",
     "Set up a circuit at the park. Turn your park into your own gym. Set up stations for press-ups, sit-ups, burpees, and skipping, and rotate around each one for set times.",
     "Run to work. Save money on your commute while burning calories as you ditch your car, bus, or train for exercise instead.",
-    "Try boxercise. Boxercise is an exercise class based on the training concepts boxers use to keep fit. There are plenty of classes across the country for all levels.",
     "Go bowling. According to research, during a three-game series, the average person walks more than half of a mile. A great idea for a weekend activity with your friends.",
-    "Orienteering in the countryside. Test your navigational skills and get from point A to B with a group of friends using a map and compass.",
-    "Host a sports day. Get your friends and family involved for a sports day. From egg and spoon races to tug of war, this is a fun way to get in your exercise for the day.",
     "Attend a gym class you’ve never done before. Discover all the local gym classes in your area. Why not try a zumba or spin class if you've never tried one before.",
     "Try out a Youtube Pilates tutorial. There are plenty of great tutorials online, and pilates is just one of many ways to increase your flexibility and tone muscles.",
     "Squat, crunch, and lunge in the comfort of your own home. Don't let bad weather stop you from exercising. Set yourself a 30-min challenge of squats, crunches, press-ups, etc.",
@@ -222,6 +215,7 @@ const App = () => {
             <li key={index}>{point}</li>
           ))}
         </ul>
+        <p>Finding time to exercise as a student can be difficult. But try making your study breaks exercise breaks. You'll find that the physical exercise will improve your mental health and your academic performance.</p>
         </div>
         )}
 
