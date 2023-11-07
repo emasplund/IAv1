@@ -145,7 +145,7 @@ const App = () => {
               <button style={{ marginBottom: '5px', width: '100%', textAlign: 'left', border: 'none' }} onClick={() => handleCategoryClick('Nutrition Basics')}>Nutrition Basics</button>
             </li>
             <li>
-              <button style={{ marginBottom: '5px', width: '100%', textAlign: 'left', border: 'none'}} onClick={() => handleCategoryClick('Realistic Goals')}>Realistic Goals</button>
+              <button style={{ marginBottom: '5px', width: '100%', textAlign: 'left', border: 'none'}} onClick={() => handleCategoryClick('Making Nutrition Goals')}>Making Nutrition Goals</button>
             </li>
           </ul>
         </li>
@@ -160,10 +160,25 @@ const App = () => {
 
         {selectedCategory === 'Local Resources' && (
           <div>
+          <h3>Local Resources</h3>
+          <p>There are lots of local resources in Provo for getting exercise.</p>
+
           <div style={{ backgroundColor: 'white', padding: '20px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
-            <h3>BYU Resources</h3>
-            <p>Did you know that BYU has facilities, intermural sports teams, and classes that can all help you get exercise? Check out this link to see all that campus has to offer for free:</p>
-            <a href="https://studentwellness.byu.edu/">BYU Student Resources</a>
+            <h3>BYU Free Gyms</h3>
+            <p>BYU has a free student and women's gym that's open from 6am to 9:45pm.</p>
+            <a href="https://studentwellness.byu.edu/fitness-center">BYU Fitness Centers</a>
+          </div>
+
+          <div style={{ backgroundColor: 'white', padding: '20px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
+            <h3>BYU Open Play Groups</h3>
+            <p>BYU has several open play sports groups for sports like basketball, pickleball, and volleyball</p>
+            <a href="https://studentwellness.byu.edu/fitness-center">BYU Open Play Groups</a>
+          </div>
+
+          <div style={{ backgroundColor: 'white', padding: '20px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
+            <h3>BYU YFitness Classes</h3>
+            <p>Not only does BYU offer free gyms, but also free workout classes for spin, high fit, zumba, yoga, and pilates</p>
+            <a href="https://studentwellness.byu.edu/yfitness-classes">YFitness Classes</a>
           </div>
 
           <div style={{ backgroundColor: 'white', padding: '20px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
@@ -315,20 +330,24 @@ const App = () => {
           </div>
         )}
 
-        {selectedCategory === 'Nutrition Tips' && (
+        {selectedCategory === "Making Nutrition Goals" && (
           <div>
-          <div style={{ backgroundColor: 'white', padding: '20px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
-            <h3>Healthy Eating 101</h3>
-            <p>Looking for a nutrition crash course? Look no further. Learn some simple nutrition tips and basics that will help you find easy ways to improve
-             your diet.</p>
-            <a href="https://www.healthline.com/nutrition/how-to-eat-healthy-guide">How to Eat Healthy</a>
+            <h3>Making Nutrition Goals</h3>
+            <p>Eating better doesn't need to involve major diet changes. There's a lot of simple goals you can incorporate into your diet that can do a lot of good. The 
+            following are some suggestions of some goals to try and strive for: </p>
           </div>
-          <div style={{ backgroundColor: 'white', padding: '20px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
-            <h3>Simple Nutrition Tips</h3>
-            <p>There's a lot to learn about nutrition, but it's best to start with the basics. Learn about easy ways you can work more nutrition in your diet. Cut out processed foods, eat food with variety, and cut out sugary drinks.
-             A few small changes is enough to make big improvements in your diet</p>
-            <a href="https://www.healthline.com/nutrition/healthy-eating-tips">Healthy Eating Tips</a>
-          </div>
+        )}
+
+        {selectedCategory === 'Nutrition Basics' && (
+          <div>
+           <h3>Nutrition Tips</h3>
+           <p>It's important to remember that you can have a nutritious diet and still eat foods you like. Nutrition is all about moderation of 
+           what's not good for us and the incorporation of what is into our diet. Decades of scientific research link ultra-processed foods to negative health outcomes, including increased disease risk and early death. Cutting back on soda, processed meats, candy, ice cream, fried foods, fast food, and highly processed, packaged snacks is a smart way to improve your health and lower your risk of certain diseases. 
+           However, you don’t have to completely avoid these foods all the time. Instead, try to prioritize whole, nutrient-dense foods like vegetables, fruits, nuts, seeds, beans, and fish, saving highly processed foods and beverages for special treats. Foods like ice cream and candy can be a part of a healthy, well-rounded diet, but they shouldn’t be a significant part of your calorie intake.</p>
+
+           <p>If you’re interested in healthy eating, making a few small changes can get you moving in the right direction.
+
+Although healthy eating may look a bit different for everyone, balanced diets are generally rich in nutrient-dense foods, low in highly processed foods, and comprised of filling meals and snacks.</p>
           </div>
         )}
     </div>
