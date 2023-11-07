@@ -31,13 +31,22 @@ const App = () => {
           </ul>
         </li>
         <li>
-          <span style={{ marginBottom: '5px', width: '100%', textAlign: 'left'}}>Food</span>
+          <span style={{ marginBottom: '5px', width: '100%', textAlign: 'left'}}>Meal Prep</span>
           <ul style={{ listStyleType: 'none', padding: 0, paddingLeft: '20px' }}>
+            <li>
+              <button style={{ marginBottom: '5px', width: '100%', textAlign: 'left', border: 'none' }} onClick={() => handleCategoryClick('Grocery Tips')}>Grocery Tips</button>
+            </li>
             <li>
               <button style={{ marginBottom: '5px', width: '100%', textAlign: 'left', border: 'none'}} onClick={() => handleCategoryClick('Recipes')}>Recipes</button>
             </li>
+          </ul>
+          <span style={{ marginBottom: '5px', width: '100%', textAlign: 'left'}}>Nutrition</span>
+          <ul style={{ listStyleType: 'none', padding: 0, paddingLeft: '20px' }}>
             <li>
-              <button style={{ marginBottom: '5px', width: '100%', textAlign: 'left', border: 'none' }} onClick={() => handleCategoryClick('Nutrition Tips')}>Nutrition Tips</button>
+              <button style={{ marginBottom: '5px', width: '100%', textAlign: 'left', border: 'none' }} onClick={() => handleCategoryClick('Nutrition Basics')}>Nutrition Basics</button>
+            </li>
+            <li>
+              <button style={{ marginBottom: '5px', width: '100%', textAlign: 'left', border: 'none'}} onClick={() => handleCategoryClick('Realistic Goals')}>Realistic Goals</button>
             </li>
           </ul>
         </li>
