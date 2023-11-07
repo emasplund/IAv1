@@ -102,6 +102,29 @@ const App = () => {
     'Balance or stability: These exercises are designed to strengthen muscles and improve body coordination. Examples include Pilates, tai chi poses, and core-strengthening exercises.',
     'Flexibility: These types of exercises help muscle recovery, maintain range of motion, and prevent injuries. Examples include yoga or individual muscle-stretch movements.',
   ];
+
+  const eatingTips = [
+    "Eat slowly to control your appetite and reduce calorie intake.",
+    "Choose whole grain bread over refined bread for better health.",
+    "Make a shopping list and avoid shopping while hungry to reduce impulse buying.",
+    "Start your day with eggs for protein and increased feelings of fullness.",
+    "Increase protein intake to curb hunger and retain muscle mass.",
+    "Stay hydrated with water to promote weight loss and reduce calorie intake.",
+    "Opt for healthier cooking methods like baking and roasting instead of grilling or frying.",
+    "Consider omega-3 and vitamin D supplements for overall health.",
+    "Upgrade to healthier fast food restaurants with nutritious options.",
+    "Try new healthy recipes weekly to diversify your diet.",
+    "Choose baked or boiled potatoes over deep-fried options.",
+    "Begin your meals with greens to promote weight loss and control blood sugar.",
+    "Eat whole fruits instead of drinking fruit juices.",
+    "Cook at home more often for better control over ingredients and budget.",
+    "Replace sugary beverages with sparkling water to reduce sugar intake.",
+    "Avoid 'diet' foods that often contain added sugar.",
+    "Eat fresh berries instead of dried ones to lower calorie intake.",
+    "Opt for air-popped popcorn over potato chips for a healthier snack.",
+    "Choose healthy oils like olive, avocado, and coconut oil.",
+    "Use smaller plates to control portion sizes and reduce overeating.",
+  ];
   
   return (
     <div>
@@ -335,6 +358,14 @@ const App = () => {
             <h3>Making Nutrition Goals</h3>
             <p>Eating better doesn't need to involve major diet changes. There's a lot of simple goals you can incorporate into your diet that can do a lot of good. The 
             following are some suggestions of some goals to try and strive for: </p>
+
+            <ul>
+              {eatingTips.map((tip, index) => (
+                <li key={index}>{tip}</li>
+              ))}
+            </ul>
+
+            <p>The key to successful goal making is to not try to do too much at once. For example, if you want to stop eating out and cook and home instead, start with a goal of doing that once or twice a week. Then slowly increase it as you get more in the habit of cooking for yourself.</p>
           </div>
         )}
 
