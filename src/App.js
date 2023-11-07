@@ -373,18 +373,18 @@ const App = () => {
           <div>
            <h3>Nutrition Tips</h3>
            <p>It's important to remember that you can have a nutritious diet and still eat foods you like. Nutrition is all about moderation of 
-           what's not good for us and the incorporation of what is into our diet. 
+           what's not good for us and the incorporation of what is into our diet.</p>
            
-           Decades of scientific research link ultra-processed foods to negative health outcomes, including increased disease risk and early death. Cutting back on soda, processed meats, candy, ice cream, fried foods, fast food, and highly processed, packaged snacks is a smart way to improve your health and lower your risk of certain diseases. 
+           <p>Decades of scientific research link ultra-processed foods to negative health outcomes, including increased disease risk and early death. Cutting back on soda, processed meats, candy, ice cream, fried foods, fast food, and highly processed, packaged snacks is a smart way to improve your health and lower your risk of certain diseases. </p>
            
-           However, you don’t have to completely avoid these foods all the time. Instead, try to prioritize whole, nutrient-dense foods like vegetables, fruits, nuts, seeds, beans, and fish, saving highly processed foods and beverages for special treats. Foods like ice cream and candy can be a part of a healthy, well-rounded diet, but they shouldn’t be a significant part of your calorie intake.</p>
+           <p>However, you don’t have to completely avoid these foods all the time. Instead, try to prioritize whole, nutrient-dense foods like vegetables, fruits, nuts, seeds, beans, and fish, saving highly processed foods and beverages for special treats. Foods like ice cream and candy can be a part of a healthy, well-rounded diet, but they shouldn’t be a significant part of your calorie intake.</p>
 
-           <p>If you’re interested in healthy eating, making a few small changes can get you moving in the right direction.
-
-Although healthy eating may look a bit different for everyone, balanced diets are generally rich in nutrient-dense foods, low in highly processed foods, and comprised of filling meals and snacks.</p>
+           <p>If you’re interested in healthy eating, making a few small changes can get you moving in the right direction. Although healthy eating may look a bit different for everyone, balanced diets are generally rich in nutrient-dense foods, low in highly processed foods, and comprised of filling meals and snacks. Check out the Making Nutrition Goals section of this site to find some easy suggestions for health goals.</p>
           <h4>My Plate</h4>
           <p>My Plate is a good resource for getting a quick look at the main food groups we want to incorporate food from.</p>
-          <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.myplate.gov%2Fsites%2Fdefault%2Ffiles%2F2020-12%2FMyPlate_blue.png&tbnid=4qhuLVJtqkV1rM&vet=12ahUKEwj8iJXZqLKCAxXXIkQIHblKAOkQMygAegQIARBW..i&imgrefurl=https%3A%2F%2Fwww.myplate.gov%2Fresources%2Fgraphics%2Fmyplate-graphics&docid=877F-eWBvTxv-M&w=696&h=624&q=myplate%20google&ved=2ahUKEwj8iJXZqLKCAxXXIkQIHblKAOkQMygAegQIARBW"></img>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKF-2lY7cO-DQYqKujE0eitJ_B8Znoef6sBg&usqp=CAU"/>
+          <p>The My Plate site has a quiz you can take to see what nutrients you might be lacking in that you can take as a guideline. My Plate shouldn't be used as a rule of nutritious eating, but it is helpful for considering which foods you may want to add to your diet.</p>
+          <a href="https://www.myplate.gov/form/myplate-quiz">My Plate Quiz</a>
           </div>
         )}
     </div>
